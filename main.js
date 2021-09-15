@@ -23,13 +23,13 @@ window.addEventListener('resize',function(){
 })
 
 window.addEventListener('keypress',function(e){
-    if(e.key == 'ArrowUp'){
+    if(e.key == 'w'){
         actions[0] = true;
-    }if(e.key == 'ArrowDown'){
+    }if(e.key == 's'){
         actions[2] = true;
-    }if(e.key == 'ArrowLeft'){
+    }if(e.key == 'a'){
         actions[3] = true;
-    }if(e.key == 'ArrowRight'){
+    }if(e.key == 'd'){
         actions[1] = true;
     }if(e.key ==' '){
         if(!shooting){
@@ -43,13 +43,13 @@ window.addEventListener('keypress',function(e){
 })
 
 window.addEventListener('keyup',function(e){
-    if(e.key == 'ArrowUp'){
+    if(e.key == 'w'){
         actions[0] = false;
-    }if(e.key == 'ArrowDown'){
+    }if(e.key == 's'){
         actions[2] = false;
-    }if(e.key == 'ArrowLeft'){
+    }if(e.key == 'a'){
         actions[3] = false;
-    }if(e.key == 'ArrowRight'){
+    }if(e.key == 'd'){
         actions[1] = false;
     }
 })
